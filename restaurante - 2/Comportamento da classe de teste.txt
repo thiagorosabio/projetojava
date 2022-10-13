@@ -1,0 +1,32 @@
+-> Qual seu nome?
+Instanciar um objeto da classe Pedido passando o nome do usuário
+
+Loop de menu:
+  1 - Adicionar um lanche ao pedido
+  2 - Adicionar uma bebida ao pedido
+  3 - Alterar taxa de serviço // trocar o valor da propriedade taxa
+    de serviço
+  4 - Fechar pedido
+  
+  Usuário vai escolher uma opção
+  
+  Se o usuário escolher opção 1:
+    Fazer as perguntas sobre as propriedades do lanche
+    Ler as entradas do usuário
+    Instanciar o lanche com as entradas obtidas
+    Salvar o lanche na classe pedido
+    
+  Se o usuário escolher opção 2:
+    Fazer as perguntas sobre as propriedades da bebida
+    Ler as entradas do usuário
+    Instanciar a bebida com as entradas obtidas
+    Salvar a bebida na classe pedido
+    
+  Se o usuário escolher opção 3:
+    Alterar o valor da propriedade taxaDeServico do objeto pedido
+      Se o valor era verdadeiro, passar para falso
+      Se o valor era falso, passar para verdadeiro
+      
+  Se o usuário escolher opção 4:
+    Chamar o método gerarFatura do objeto pedido
+    Encerrar o programa

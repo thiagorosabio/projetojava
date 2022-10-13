@@ -1,0 +1,19 @@
+Sistema do Restaurante:
+- Criar as classes e interface apresentadas no diagrama
+- Criar uma classe TesteRestaurante com um metodo main para realizar os seguintes testes:
+  - Adicionar um lanche com valor 32.5
+  - Adicionar uma bebida com valor 7.5
+  - Adicionar um pedido com taxa de serviço e inserir os itens dentro do pedido
+  - Chamar o metodo calcularTotal e apresentar na tela o valor final
+  - Com esses valores, o resultado final deve ser 46
+  
+  
+OBS: Caso ativa, a taxa de serviço deve acrescentar 15% no valor final do pedido
+
+*************************************************************************************************************
+
+Melhorias restaurante:     
+    1 - Extrair a propriedade nome para a classe abstrata - OK
+    2 - Usar construtores - ok
+    3 - Criar um método para gerar uma fatura para o cliente (nome dos itens e preço)
+    4 - Alterar a classe de teste para interagir com o usuário através de um menu de opções (ver arquivo abaixo para entender o comportamento) - ok
